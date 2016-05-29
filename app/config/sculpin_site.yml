@@ -3,6 +3,7 @@
 # in a template to get the contents of the `title` key.
 title: Sculpin Blog Skeleton
 subtitle: To Get You Started
+url: /travis-ci-pull-test
 
 # Insert your disqus shortname
 #disqus:
