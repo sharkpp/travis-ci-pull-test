@@ -10,8 +10,8 @@ php sculpin.phar generate --env=prod
 
 cd output_prod
 
-git config --local user.email "touroku@sharkpp.net"
-git config --local user.name  "sharkpp"
+git config --global user.email "touroku@sharkpp.net"
+git config --global user.name  "sharkpp"
 
 git init
 git add .
