@@ -29,4 +29,8 @@ cat .tw.yml | sed \
     -e "s/TW_USER_NAME/${TW_USER_NAME}/g" \
     > ~/.tw.yml
 
-echo -e "てすと $(date '+%Y%m%d%H%M%S')\n https://travis-ci.org/sharkpp/travis-ci-pull-test" | tw -yes
+which tw
+
+ls -la ~/
+
+echo -e "てすと $(date '+%Y%m%d%H%M%S')\n https://travis-ci.org/sharkpp/travis-ci-pull-test" | tw --pipe
