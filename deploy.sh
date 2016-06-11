@@ -24,7 +24,7 @@ pushd output_prod
 git add . -A
 git commit -m "Deploy to GitHub Pages"
 #git push --quiet "https://${GH_TOKEN}@github.com/${TRAVIS_REPO_SLUG}.git" master:gh-pages
-git push --quiet origin/gh-pages
+git push --quiet origin gh-pages
 
 popd
 
