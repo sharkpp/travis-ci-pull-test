@@ -4,19 +4,20 @@
 #set | sed -e "s/^\(.*TOKEN=\).*/\1[secure]/g"
 #echo ------------------------------------------------------------------------------------------
 
-php sculpin.phar install
+git config --global user.email "touroku@sharkpp.net"
+git config --global user.name  "sharkpp"
 
+git clone --quiet -b master:gh-pages "https://${GH_TOKEN}@github.com/${TRAVIS_REPO_SLUG}.git" output_prod > /dev/null
+rm -rf output_prod/*
+
+php sculpin.phar install
 php sculpin.phar generate --env=prod
 
 pushd output_prod
 
-git config --global user.email "touroku@sharkpp.net"
-git config --global user.name  "sharkpp"
-
-git init
-git add .
-git commit -m "Deploy to GitHub Pages"
-git push --force-with-lease --quiet "https://${GH_TOKEN}@github.com/${TRAVIS_REPO_SLUG}.git" master:gh-pages > /dev/null 2>&1
+git add . -A
+git commit -m "Deploy $(date '+%Y%m%d%H%M%S') to GitHub Pages"
+git push --quiet "https://${GH_TOKEN}@github.com/${TRAVIS_REPO_SLUG}.git" master:gh-pages > /dev/null
 
 popd
 
