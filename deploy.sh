@@ -7,7 +7,9 @@
 git config --global user.email "touroku@sharkpp.net"
 git config --global user.name  "sharkpp"
 
-git clone --quiet -b gh-pages "https://${GH_TOKEN}@github.com/${TRAVIS_REPO_SLUG}.git" output_prod > /dev/null
+git clone --quiet -b gh-pages "https://${GH_TOKEN}@github.com/${TRAVIS_REPO_SLUG}.git" output_prod
+git fetch
+git rebase origin/gh-pages
 rm -rf output_prod/*
 
 php sculpin.phar install
@@ -17,7 +19,7 @@ pushd output_prod
 
 git add . -A
 git commit -m "Deploy $(date '+%Y%m%d%H%M%S') to GitHub Pages"
-git push --quiet "https://${GH_TOKEN}@github.com/${TRAVIS_REPO_SLUG}.git" master:gh-pages > /dev/null
+git push --quiet "https://${GH_TOKEN}@github.com/${TRAVIS_REPO_SLUG}.git" master:gh-pages
 
 popd
 
