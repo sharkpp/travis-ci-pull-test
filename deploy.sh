@@ -7,7 +7,7 @@
 git config --global user.email "touroku@sharkpp.net"
 git config --global user.name  "sharkpp"
 
-git clone --quiet -b master:gh-pages "https://${GH_TOKEN}@github.com/${TRAVIS_REPO_SLUG}.git" output_prod > /dev/null
+git clone --quiet -b gh-pages "https://${GH_TOKEN}@github.com/${TRAVIS_REPO_SLUG}.git" output_prod > /dev/null
 rm -rf output_prod/*
 
 php sculpin.phar install
