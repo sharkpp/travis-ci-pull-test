@@ -22,9 +22,9 @@ php sculpin.phar generate --env=prod
 pushd output_prod
 
 git add . -A
-git commit -m "Deploy $(date '+%Y%m%d%H%M%S') to GitHub Pages"
+git commit -m "Deploy to GitHub Pages"
 #git push --quiet "https://${GH_TOKEN}@github.com/${TRAVIS_REPO_SLUG}.git" master:gh-pages
-git push
+git push --quiet origin/gh-pages
 
 popd
 
