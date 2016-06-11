@@ -8,8 +8,11 @@ git config --global user.email "touroku@sharkpp.net"
 git config --global user.name  "sharkpp"
 
 git clone --quiet -b gh-pages "https://${GH_TOKEN}@github.com/${TRAVIS_REPO_SLUG}.git" output_prod
+pushd output_prod
+git clone remote
 git fetch
 git rebase origin/gh-pages
+popd
 rm -rf output_prod/*
 
 php sculpin.phar install
@@ -36,4 +39,4 @@ which tw
 
 ls -la ~/
 
-echo -e "てすと $(date '+%Y%m%d%H%M%S')\n https://travis-ci.org/sharkpp/travis-ci-pull-test" | tw --pipe
+# echo -e "てすと $(date '+%Y%m%d%H%M%S')\n https://travis-ci.org/sharkpp/travis-ci-pull-test" | tw --pipe
