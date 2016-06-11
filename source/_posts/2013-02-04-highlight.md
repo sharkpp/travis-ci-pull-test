@@ -2,6 +2,9 @@
 title: Syntax Highlighting
 categories:
     - features
+redirect:
+    - alias-path.html
+    - old-path.html
 
 ---
 You're all programmers, right? And you're writing code snippets on your Sculpin
