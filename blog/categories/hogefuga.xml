@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title><![CDATA[Sculpin Blog Skeleton]]></title>
+    <link href="/travis-ci-pull-test/blog/categories/hogefuga.xml" rel="self"/>
+    <link href="/travis-ci-pull-test/"/>
+    <updated>2016-06-12T12:53:05+00:00</updated>
+    <id>/travis-ci-pull-test/</id>
+        <generator uri="http://sculpin.io/">Sculpin</generator>
+            <entry>
+            <title type="html"><![CDATA[ti3da3b4d1]]></title>
+            <link href="/travis-ci-pull-test/blog/2016/10/26/ti3da3b4d1"/>
+            <updated>2016-10-26T00:00:00+00:00</updated>
+            <id>/travis-ci-pull-test/blog/2016/10/26/ti3da3b4d1</id>
+            <content type="html"><![CDATA[<p>ddbf45442b01512f7099fa10c8310773e4fc8a32bcffe044b06182482dd3aea8</p>
+]]></content>
+        </entry>
+            <entry>
+            <title type="html"><![CDATA[tied21862e]]></title>
+            <link href="/travis-ci-pull-test/blog/2016/10/25/tied21862e"/>
+            <updated>2016-10-25T00:00:00+00:00</updated>
+            <id>/travis-ci-pull-test/blog/2016/10/25/tied21862e</id>
+            <content type="html"><![CDATA[<p>d7b57025d7ea7784cd8170dd3f6f228e01cae42cd555c03010d6115ae1f366a0</p>
+]]></content>
+        </entry>
+            <entry>
+            <title type="html"><![CDATA[ti6b397bf3]]></title>
+            <link href="/travis-ci-pull-test/blog/2016/10/24/ti6b397bf3"/>
+            <updated>2016-10-24T00:00:00+00:00</updated>
+            <id>/travis-ci-pull-test/blog/2016/10/24/ti6b397bf3</id>
+            <content type="html"><![CDATA[<p>d126f965ad6ea980eb3f235033841894ce2790ca102bfc99455cd864c7ec17f2</p>
+]]></content>
+        </entry>
+            <entry>
+            <title type="html"><![CDATA[tifd00be03]]></title>
+            <link href="/travis-ci-pull-test/blog/2016/10/23/tifd00be03"/>
+            <updated>2016-10-23T00:00:00+00:00</updated>
+            <id>/travis-ci-pull-test/blog/2016/10/23/tifd00be03</id>
+            <content type="html"><![CDATA[<p>ec75966633fc06bc6561e1e4aac2296142fa8c9be2722cd2734bb707602b4132</p>
+]]></content>
+        </entry>
+            <entry>
+            <title type="html"><![CDATA[tie8338120]]></title>
+            <link href="/travis-ci-pull-test/blog/2016/10/22/tie8338120"/>
+            <updated>2016-10-22T00:00:00+00:00</updated>
+            <id>/travis-ci-pull-test/blog/2016/10/22/tie8338120</id>
+            <content type="html"><![CDATA[<p>e1bc6eb5f2759e3238cf084d819d368587847756454417849d4d642bfafd9c07</p>
+]]></content>
+        </entry>
+            <entry>
+            <title type="html"><![CDATA[ti5c0fe139]]></title>
+            <link href="/travis-ci-pull-test/blog/2016/10/21/ti5c0fe139"/>
+            <updated>2016-10-21T00:00:00+00:00</updated>
+            <id>/travis-ci-pull-test/blog/2016/10/21/ti5c0fe139</id>
+            <content type="html"><![CDATA[<p>7cec685c5b63938383d6f8ed505a5ed397543e3707b767fb743016b7bc8c5f4c</p>
+]]></content>
+        </entry>
+            <entry>
+            <title type="html"><![CDATA[ti8001c195]]></title>
+            <link href="/travis-ci-pull-test/blog/2016/10/20/ti8001c195"/>
+            <updated>2016-10-20T00:00:00+00:00</updated>
+            <id>/travis-ci-pull-test/blog/2016/10/20/ti8001c195</id>
+            <content type="html"><![CDATA[<p>701eb1af2ef952842a9c43dfc2190d3f600d94ec85e57c3cda69db034fc99f16</p>
+]]></content>
+        </entry>
+            <entry>
+            <title type="html"><![CDATA[ti79290f4c]]></title>
+            <link href="/travis-ci-pull-test/blog/2016/10/19/ti79290f4c"/>
+            <updated>2016-10-19T00:00:00+00:00</updated>
+            <id>/travis-ci-pull-test/blog/2016/10/19/ti79290f4c</id>
+            <content type="html"><![CDATA[<p>20f4ed46e80af20ab8ebe4ff1a1a857ecf2c00b5a28af05a3bda100cf79643be</p>
+]]></content>
+        </entry>
+            <entry>
+            <title type="html"><![CDATA[ti7b803dd9]]></title>
+            <link href="/travis-ci-pull-test/blog/2016/10/18/ti7b803dd9"/>
+            <updated>2016-10-18T00:00:00+00:00</updated>
+            <id>/travis-ci-pull-test/blog/2016/10/18/ti7b803dd9</id>
+            <content type="html"><![CDATA[<p>fcd17f0cbbaa7a0a13cb546db7811b488c187540ace7719f0cab0a0caeb40a81</p>
+]]></content>
+        </entry>
+            <entry>
+            <title type="html"><![CDATA[tie420efba]]></title>
+            <link href="/travis-ci-pull-test/blog/2016/10/17/tie420efba"/>
+            <updated>2016-10-17T00:00:00+00:00</updated>
+            <id>/travis-ci-pull-test/blog/2016/10/17/tie420efba</id>
+            <content type="html"><![CDATA[<p>f35a4532a31a4d726865882a9e11ccf97d353b4286195a71aafed9dc5937f25d</p>
+]]></content>
+        </entry>
+    </feed>
