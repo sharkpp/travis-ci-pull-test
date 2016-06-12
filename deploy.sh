@@ -4,6 +4,8 @@
 #set | sed -e "s/^\(.*TOKEN=\).*/\1[secure]/g"
 #echo ------------------------------------------------------------------------------------------
 
+DEPLOY_MSG=$(git log --pretty=format:"Deploy from https://github.com/${TRAVIS_REPO_SLUG}/commit/%H : %s" -1)
+
 git config --global user.email "touroku@sharkpp.net"
 git config --global user.name  "sharkpp"
 
@@ -22,7 +24,7 @@ php sculpin.phar generate --env=prod
 pushd output_prod
 
 git add . -A
-git commit -m "Deploy to GitHub Pages"
+echo $DEPLOY_MSG | git commit -F -
 #git push --quiet "https://${GH_TOKEN}@github.com/${TRAVIS_REPO_SLUG}.git" master:gh-pages
 git push --quiet origin gh-pages
 
