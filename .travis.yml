@@ -6,7 +6,7 @@ branches:
   only:
     - master
 script:
-  - rbenv local 2.4.0 ; gem install tw
+  - rbenv install 2.4.0 ; rbenv global 2.4.0 ; gem install tw
   - '[ "$TRAVIS_PULL_REQUEST" == "false" ] && bash ./deploy.sh'
 cache:
   directories:
