@@ -9,6 +9,7 @@ branches:
     - master
 script:
   - rvm list
+  - rvm list known
   - gem install tw
   - '[ "$TRAVIS_PULL_REQUEST" == "false" ] && bash ./deploy.sh'
 cache:
