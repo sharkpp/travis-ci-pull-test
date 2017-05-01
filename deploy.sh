@@ -6,8 +6,8 @@
 
 DEPLOY_MSG=$(git log --pretty=format:"Deploy from https://github.com/${TRAVIS_REPO_SLUG}/commit/%H : %s" -1)
 
-git config --global user.email "touroku@sharkpp.net"
-git config --global user.name  "sharkpp"
+git config --global user.email "${GIT_EMAIL}"
+git config --global user.name  "${GIT_USERNAME}"
 
 git clone --quiet -b gh-pages "https://${GH_TOKEN}@github.com/${TRAVIS_REPO_SLUG}.git" output_prod
 pushd output_prod
