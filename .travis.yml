@@ -8,8 +8,8 @@ branches:
   only:
     - master
 script:
-  - rbenv versions
-  - rbenv install 2.4.0 ; rbenv global 2.4.0 ; gem install tw
+  - rvm list
+  - gem install tw
   - '[ "$TRAVIS_PULL_REQUEST" == "false" ] && bash ./deploy.sh'
 cache:
   directories:
