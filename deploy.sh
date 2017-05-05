@@ -43,3 +43,5 @@ cat .tw.yml | sed \
 #ls -la ~/
 
 # echo -e "てすと $(date '+%Y%m%d%H%M%S')\n https://travis-ci.org/sharkpp/travis-ci-pull-test" | tw --pipe
+
+echo error = $?

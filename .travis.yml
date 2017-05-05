@@ -1,14 +1,11 @@
 language: php
 php:
   - 5.6
-rvm:
-  - 2.4.0
 sudo: false
 branches:
   only:
     - master
 script:
-  - rvm install 2.2-head ; rvm use 2.2-head ; gem install tw
   - '[ "$TRAVIS_PULL_REQUEST" == "false" ] && bash ./deploy.sh'
 cache:
   directories:
